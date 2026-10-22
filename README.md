@@ -2,6 +2,27 @@
 
 A Power BI report for exploring fashion retail sales, returns, inventory, and category performance. The repository includes the editable PBIX report, a PDF export, page background images, and reference workbooks for field definitions and colors.
 
+## Dashboard preview
+
+### Sales performance and revenue
+
+![Sales performance and revenue dashboard](docs/screenshots/sales-performance.png)
+
+### Customer behavior and returns
+
+![Customer behavior and returns dashboard](docs/screenshots/customer-returns.png)
+
+### Inventory and category
+
+![Inventory and category dashboard](docs/screenshots/inventory-category.png)
+
+## Report highlights
+
+- Summarizes 159.50K in sales, 1,856 units sold, and an average order value of 85.94 in the packaged report model.
+- Compares revenue and average order value across seven fashion brands.
+- Breaks down 320 returns by reason, season, product category, and customer-rating group.
+- Tracks monthly units sold and stock quantity across six product categories.
+
 ## Features
 
 - Sales summary with total sales, average order value, units sold, average discount, and revenue by brand.
@@ -65,6 +86,7 @@ If the source query is changed in Power BI Desktop, update its data-source path 
 ├── assets/
 │   └── page-backgrounds/      # PNG backgrounds used by report pages
 ├── docs/
+│   ├── screenshots/           # GitHub-friendly dashboard previews
 │   └── Fashion-Dataset.pdf    # Static three-page report export
 ├── powerbi/
 │   └── Fashion-Dataset.pbix   # Editable Power BI report and packaged model
