@@ -1,0 +1,46 @@
+# Local source bundle
+_local_backup/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# JavaScript dependencies and caches
+node_modules/
+.npm/
+
+# Build, coverage, and temporary output
+build/
+dist/
+coverage/
+tmp/
+temp/
+*.tmp
+*.log
+
+# Infrastructure state
+.terraform/
+*.tfstate
+*.tfstate.*
+.terragrunt-cache/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
