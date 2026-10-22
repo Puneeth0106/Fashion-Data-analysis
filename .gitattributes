@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+*.pbix binary
+*.pdf binary
+*.png binary
+*.xlsx binary
+*.zip binary
+
